@@ -3,6 +3,7 @@ main {
   flex-wrap: wrap;
   background-size: contain;
   height: auto;
+  justify-content: center;
   align-content: flex-start;
   position: relative;
 }
