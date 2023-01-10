@@ -8,9 +8,11 @@ import Zodiac from '../Zodiac/Zodiac.js';
 export default function Main() {
   return (
     <main style={{ backgroundImage: `url('${background}')` }}>
-      {zodiacs.map((zodiac) => (
-        <Zodiac key={zodiac.id} name={zodiac.name} dates={zodiac.dates} symbol={zodiac.symbol} />
-      ))}
+      <div className="zodiac-container">
+        {zodiacs.map((zodiac) => (
+          <Zodiac key={zodiac.id} name={zodiac.name} dates={zodiac.dates} symbol={zodiac.symbol} />
+        ))}
+      </div>
     </main>
   );
 }
