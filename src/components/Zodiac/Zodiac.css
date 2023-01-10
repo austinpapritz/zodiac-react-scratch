@@ -1,6 +1,6 @@
 .card {
   border: solid black 1px;
-  margin: 10px;
+  margin: 15px;
   padding: 20px;
   background: white;
   border-radius: 1rem;
@@ -8,4 +8,8 @@
 
 .name:first-letter {
   text-transform: uppercase;
+}
+
+.card:hover {
+  transform: scale(1.2, 1.1);
 }
